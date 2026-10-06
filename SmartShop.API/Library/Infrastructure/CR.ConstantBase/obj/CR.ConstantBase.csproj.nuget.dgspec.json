@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj": {}
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj": {}
   },
   "projects": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj": {
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj",
+        "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj",
         "projectName": "CR.ConstantBase",
-        "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj",
+        "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.ConstantBase\\CR.ConstantBase.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.ConstantBase\\obj\\",
+        "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.ConstantBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

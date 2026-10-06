@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KvTm9hFu2Vk=",
+  "dgSpecHash": "ElN+Tvyzn3E=",
   "success": true,
-  "projectFilePath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.API\\CR.Core.API.csproj",
+  "projectFilePath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.API\\CR.Core.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\dotnetenv\\3.2.0\\dotnetenv.3.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration\\1.1.2\\microsoft.extensions.configuration.1.1.2.nupkg.sha512",
@@ -92,9 +92,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "CR.Core.API depends on DotNetEnv (>= 3.1.2) but DotNetEnv 3.1.2 was not found. DotNetEnv 3.2.0 was resolved instead.",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.API\\CR.Core.API.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.API\\CR.Core.API.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.API\\CR.Core.API.csproj",
+      "filePath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.API\\CR.Core.API.csproj",
       "libraryId": "DotNetEnv",
       "targetGraphs": [
         "net9.0"

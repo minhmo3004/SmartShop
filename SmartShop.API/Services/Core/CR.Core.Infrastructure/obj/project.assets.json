@@ -5343,11 +5343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Infrastructure\\CR.Core.Infrastructure.csproj",
+      "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Infrastructure\\CR.Core.Infrastructure.csproj",
       "projectName": "CR.Core.Infrastructure",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Infrastructure\\CR.Core.Infrastructure.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Infrastructure\\CR.Core.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Infrastructure\\obj\\",
+      "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5362,8 +5362,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj": {
-              "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj"
+            "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj": {
+              "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj"
             }
           }
         }

@@ -561,11 +561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj",
+      "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj",
       "projectName": "CR.Constants",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Constants\\obj\\",
+      "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Constants\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -580,8 +580,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\copy\\EShop\\eShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj": {
-              "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj"
+            "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj": {
+              "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj"
             }
           }
         }

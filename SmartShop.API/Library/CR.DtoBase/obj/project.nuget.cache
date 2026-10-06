@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZmhsDclLPQ=",
+  "dgSpecHash": "fbWolSGbufg=",
   "success": true,
-  "projectFilePath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.DtoBase\\CR.DtoBase.csproj",
+  "projectFilePath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.DtoBase\\CR.DtoBase.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

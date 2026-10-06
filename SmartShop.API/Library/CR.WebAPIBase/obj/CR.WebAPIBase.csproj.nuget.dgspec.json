@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj": {}
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj": {}
   },
   "projects": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj": {
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj",
+        "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj",
         "projectName": "CR.WebAPIBase",
-        "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj",
+        "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.WebAPIBase\\CR.WebAPIBase.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.WebAPIBase\\obj\\",
+        "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.WebAPIBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

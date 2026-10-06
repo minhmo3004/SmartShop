@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj": {}
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj": {}
   },
   "projects": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj": {
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj",
+        "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj",
         "projectName": "CR.MongoDb",
-        "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj",
+        "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.MongoDb\\obj\\",
+        "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.MongoDb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

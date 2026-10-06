@@ -1,0 +1,51 @@
+# Local settings & Environment variables
+appsettings.local.json
+appsettings.*.local.json
+*.local.json
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# Build output
+bin/
+obj/
+dist/
+out/
+*.o
+*.so
+
+# Dependencies
+node_modules/
+packages/
+.npm
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+.fake
+No_KT.md
+DATABASE_ERD.md
+DATABASE_SCHEMA_COMPLETE.md

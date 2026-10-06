@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj": {}
+    "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj": {}
   },
   "projects": {
-    "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj": {
+    "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj",
+        "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj",
         "projectName": "CR.Common",
-        "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj",
+        "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\obj\\",
+        "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

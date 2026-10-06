@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QKDZQcj01x4=",
+  "dgSpecHash": "EM/3K7Z+JpM=",
   "success": true,
-  "projectFilePath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj",
+  "projectFilePath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.5\\microsoft.entityframeworkcore.9.0.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.5\\microsoft.entityframeworkcore.abstractions.9.0.5.nupkg.sha512",

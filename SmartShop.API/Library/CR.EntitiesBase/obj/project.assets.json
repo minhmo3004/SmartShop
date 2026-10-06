@@ -543,11 +543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj",
+      "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj",
       "projectName": "CR.EntitiesBase",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.EntitiesBase\\CR.EntitiesBase.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.EntitiesBase\\obj\\",
+      "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.EntitiesBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

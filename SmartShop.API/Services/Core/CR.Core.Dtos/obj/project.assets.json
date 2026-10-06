@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj",
+      "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj",
       "projectName": "CR.Core.Dtos",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Dtos\\obj\\",
+      "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Dtos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

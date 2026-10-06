@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2JlkyafP3aA=",
+  "dgSpecHash": "SJ6xchaca2I=",
   "success": false,
-  "projectFilePath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.ApplicationBase\\CR.ApplicationBase.csproj",
+  "projectFilePath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.ApplicationBase\\CR.ApplicationBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -76,8 +76,8 @@
       "code": "NU1102",
       "level": "Error",
       "message": "Unable to find package Microsoft.AspNetCore.Antiforgery with version (>= 9.0.0)\r\n  - Found 36 version(s) in nuget.org [ Nearest version: 2.3.13 ]",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.ApplicationBase\\CR.ApplicationBase.csproj",
-      "filePath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.ApplicationBase\\CR.ApplicationBase.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.ApplicationBase\\CR.ApplicationBase.csproj",
+      "filePath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.ApplicationBase\\CR.ApplicationBase.csproj",
       "libraryId": "Microsoft.AspNetCore.Antiforgery",
       "targetGraphs": [
         "net9.0"

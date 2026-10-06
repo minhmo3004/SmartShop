@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj": {}
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj": {}
   },
   "projects": {
-    "D:\\copy\\EShop\\eShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj": {
+    "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj",
+        "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj",
         "projectName": "CR.Localization",
-        "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj",
+        "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Application\\CR.Localization\\CR.Localization.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\copy\\EShop\\eShop.API\\Library\\Application\\CR.Localization\\obj\\",
+        "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Application\\CR.Localization\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

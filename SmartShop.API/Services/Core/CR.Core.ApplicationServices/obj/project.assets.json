@@ -1562,11 +1562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.ApplicationServices\\CR.Core.ApplicationServices.csproj",
+      "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.ApplicationServices\\CR.Core.ApplicationServices.csproj",
       "projectName": "CR.Core.ApplicationServices",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.ApplicationServices\\CR.Core.ApplicationServices.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.ApplicationServices\\CR.Core.ApplicationServices.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.ApplicationServices\\obj\\",
+      "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.ApplicationServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1581,17 +1581,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj": {
-              "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj"
+            "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj": {
+              "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj"
             },
-            "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj": {
-              "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj"
+            "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj": {
+              "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Dtos\\CR.Core.Dtos.csproj"
             },
-            "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj": {
-              "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj"
+            "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj": {
+              "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Common\\CR.Common.csproj"
             },
-            "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj": {
-              "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj"
+            "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj": {
+              "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Shared\\CR.Constants\\CR.Constants.csproj"
             }
           }
         }

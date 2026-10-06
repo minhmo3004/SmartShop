@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wgwZto0X1Y=",
+  "dgSpecHash": "pwV1wgstW4A=",
   "success": false,
-  "projectFilePath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj",
+  "projectFilePath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.0\\microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\9.0.0\\microsoft.aspnetcore.cryptography.keyderivation.9.0.0.nupkg.sha512",
@@ -34,8 +34,8 @@
       "code": "NU1102",
       "level": "Error",
       "message": "Unable to find package Microsoft.AspNetCore.Antiforgery with version (>= 9.0.0)\r\n  - Found 36 version(s) in nuget.org [ Nearest version: 2.3.13 ]",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj",
-      "filePath": "D:\\copy\\EShop\\eShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj",
+      "filePath": "D:\\copy\\SmartShop\\SmartShop.API\\Services\\Core\\CR.Core.Domain\\CR.Core.Domain.csproj",
       "libraryId": "Microsoft.AspNetCore.Antiforgery",
       "targetGraphs": [
         "net9.0"

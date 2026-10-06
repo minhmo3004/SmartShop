@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\copy\\EShop\\eShop.API\\Library\\CR.IdentityServeBase\\CR.IdentityServeBase.csproj",
+      "projectUniqueName": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.IdentityServeBase\\CR.IdentityServeBase.csproj",
       "projectName": "CR.IdentityServeBase",
-      "projectPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.IdentityServeBase\\CR.IdentityServeBase.csproj",
+      "projectPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.IdentityServeBase\\CR.IdentityServeBase.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\copy\\EShop\\eShop.API\\Library\\CR.IdentityServeBase\\obj\\",
+      "outputPath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\CR.IdentityServeBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

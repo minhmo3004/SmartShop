@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ov+8mhJ0I4=",
+  "dgSpecHash": "+imiz7l4gJI=",
   "success": true,
-  "projectFilePath": "D:\\copy\\EShop\\eShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj",
+  "projectFilePath": "D:\\copy\\SmartShop\\SmartShop.API\\Library\\Infrastructure\\CR.MongoDb\\CR.MongoDb.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
