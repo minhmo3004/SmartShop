@@ -26,8 +26,8 @@ import { filter } from 'rxjs';
             <path d="M34 28 L39 34" stroke="#C9A961" stroke-width="2" stroke-linecap="round"/>
           </svg>
           <div class="shell-nav__brand-text">
-            <span class="shell-nav__name">QUANG NGUYÊN</span>
-            <span class="shell-nav__sub">MAI QUANG NGUYÊN</span>
+            <span class="shell-nav__name">BÁ MINH</span>
+            <span class="shell-nav__sub">NGUYỄN BÁ MINH</span>
           </div>
         </a>
 

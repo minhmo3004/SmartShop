@@ -1,0 +1,49 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: smartshop-postgres
+    environment:
+      POSTGRES_DB: EShopDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: SmartShopLocal_123!
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d EShopDb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: smartshop-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartshop-api
+    ports:
+      - "8080:8080"
+      - "5178:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=EShopDb;Username=postgres;Password=SmartShopLocal_123!"
+      ConnectionStrings__Redis: "redis:6379,abortConnect=false,connectTimeout=3000,syncTimeout=3000"
+      OpenIddict__ClientWeb__Secret: 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
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  postgres-data:

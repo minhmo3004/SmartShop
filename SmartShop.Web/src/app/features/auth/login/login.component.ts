@@ -26,7 +26,7 @@ import { ThemeToggleComponent } from '../../../shared/components/theme-toggle/th
             <img src="Cu_Do_38.jpg" alt="Logo Cu Đơ 38" class="w-full h-full object-cover rounded-xl opacity-90 mix-blend-multiply dark:mix-blend-screen" />
           </div>
           <div class="mt-12 space-y-4">
-            <h2 class="text-display-sans">Mai Quang Nguyên</h2>
+            <h2 class="text-display-sans">Nguyễn Bá Minh</h2>
             <p class="text-body text-secondary border-l-2 border-accent pl-4">
               Bình tĩnh - Bản lĩnh - Hà Tĩnh | Cu Đơ 38
             </p>

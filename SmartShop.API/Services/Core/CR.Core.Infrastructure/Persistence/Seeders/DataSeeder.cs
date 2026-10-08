@@ -24,9 +24,15 @@ namespace CR.Core.Infrastructure.Persistence.Seeders
             }
 
             // 2. Users
-            if (!await db.Users.AnyAsync(u => u.Email == "maiquangnguyenkt2004@gmail.com"))
+            var defaultPasswordHash = "AQAAAAIAAYagAAAAEBrI3HoIemzvgyOqt5t0LSlnZ5NKTgWGpWQ+UsWAnvfz/TzjYi/NC56Qn+jIbKtmKw==";
+            var superAdminRole = await db.Roles.FirstOrDefaultAsync(r => r.Name == "SuperAdmin");
+            var existingSuperAdmin = await db.Users
+                .Include(u => u.UserRoles)
+                .ThenInclude(ur => ur.Role)
+                .FirstOrDefaultAsync(u => u.Email == "maiquangnguyenkt2004@gmail.com");
+
+            if (existingSuperAdmin == null)
             {
-                var superAdminRole = await db.Roles.FirstOrDefaultAsync(r => r.Name == "SuperAdmin");
                 if (superAdminRole != null)
                 {
                     var superAdminUser = new Users
@@ -34,7 +40,7 @@ namespace CR.Core.Infrastructure.Persistence.Seeders
                         Username = "maiquangnguyenkt2004",
                         Email = "maiquangnguyenkt2004@gmail.com",
                         Phone = "0900000000",
-                        PasswordHash = "AQAAAAIAAYagAAAAEM0A/pTJksE81875vdd2CmmJojUYgmLlBZgrW1n5w+eHzajj8ZSU1x8+0qSmHC0tsw==",
+                        PasswordHash = defaultPasswordHash,
                         UserType = (CR.Constants.Core.Users.UserTypeEnum)1,
                         Status = 1,
                         IsTempPassword = false,
@@ -42,20 +48,31 @@ namespace CR.Core.Infrastructure.Persistence.Seeders
                         UserRoles = new List<UserRole> { new UserRole { Role = superAdminRole } } // SuperAdmin
                     };
                     db.Users.Add(superAdminUser);
-                    await db.SaveChangesAsync();
                 }
             }
+            else
+            {
+                existingSuperAdmin.PasswordHash = defaultPasswordHash;
+                existingSuperAdmin.Status = 1;
+                existingSuperAdmin.IsTempPassword = false;
+                if (superAdminRole != null && !existingSuperAdmin.UserRoles.Any(ur => ur.Role != null && ur.Role.Name == "SuperAdmin"))
+                {
+                    existingSuperAdmin.UserRoles ??= new List<UserRole>();
+                    existingSuperAdmin.UserRoles.Add(new UserRole { Role = superAdminRole });
+                }
+            }
+            await db.SaveChangesAsync();
 
             if (await db.Products.AnyAsync()) return;
 
             var users = new List<Users>
             {
                 new Users {
-                    Username = "admin01", Email = "admin01@eshop.com", Phone = "0900000001", PasswordHash = "hashed_pwd_1", UserType = (CR.Constants.Core.Users.UserTypeEnum)1, Status = 1, IsTempPassword = false,
+                    Username = "admin01", Email = "admin01@eshop.com", Phone = "0900000001", PasswordHash = defaultPasswordHash, UserType = (CR.Constants.Core.Users.UserTypeEnum)1, Status = 1, IsTempPassword = false,
                     Profile = new UserProfile { FullName = "Admin 1", PhoneNumber = "0900000001", Gender = (CR.Constants.Core.Users.GenderTypes)1 }
                 },
                 new Users {
-                    Username = "user02", Email = "user02@eshop.com", Phone = "0900000002", PasswordHash = "hashed_pwd_2", UserType = (CR.Constants.Core.Users.UserTypeEnum)2, Status = 1, IsTempPassword = false,
+                    Username = "user02", Email = "user02@eshop.com", Phone = "0900000002", PasswordHash = defaultPasswordHash, UserType = (CR.Constants.Core.Users.UserTypeEnum)2, Status = 1, IsTempPassword = false,
                     Profile = new UserProfile { FullName = "User 2", PhoneNumber = "0900000002", Gender = (CR.Constants.Core.Users.GenderTypes)0 }
                 }
             };

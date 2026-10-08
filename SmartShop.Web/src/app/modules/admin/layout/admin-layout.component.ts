@@ -240,7 +240,7 @@ import { PERMISSIONS } from '../../../core/constants/permissions.const';
               
               <div *ngIf="!isCollapsed() || isMobileDrawerOpen()" class="flex-1 flex flex-col leading-tight min-w-0">
                 <span class="text-[13px] font-semibold truncate"
-                      [style.color]="isDark() ? '#F1F5F9' : '#0F172A'">Mai Quang Nguyên</span>
+                      [style.color]="isDark() ? '#F1F5F9' : '#0F172A'">NGUYỄN BÁ MINH</span>
                 <span class="text-[11px] font-medium" [style.color]="isDark() ? '#64748B' : '#94A3B8'">Administrator</span>
               </div>
 
