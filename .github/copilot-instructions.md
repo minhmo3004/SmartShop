@@ -3,11 +3,11 @@
 ## Kiến trúc
 - Không gian làm việc này là một monorepo full-stack với:
 
-- Backend: `eShop.API` (.NET 9 Web API + EF Core + OpenIddict).
+- Backend: `SShop.API` (.NET 9 Web API + EF Core + OpenIddict).
 
 - Frontend: `eShop.Web` (Angular 17).
 
-- Các lớp backend cốt lõi được tổ chức trong `eShop.API/Library` và `eShop.API/Services`.
+- Các lớp backend cốt lõi được tổ chức trong `SShop.API/Library` và `SShop.API/Services`.
 
 - Ưu tiên các mẫu đăng ký dựa trên extension hiện có (ví dụ: `AddApplicationServices()`) hơn là thiết lập DI ad-hoc trong mã tính năng.
 
