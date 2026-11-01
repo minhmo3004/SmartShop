@@ -68,11 +68,11 @@ namespace CR.Core.Infrastructure.Persistence.Seeders
             var users = new List<Users>
             {
                 new Users {
-                    Username = "admin01", Email = "admin01@eshop.com", Phone = "0900000001", PasswordHash = defaultPasswordHash, UserType = (CR.Constants.Core.Users.UserTypeEnum)1, Status = 1, IsTempPassword = false,
+                    Username = "admin01", Email = "admin01@sshop.com", Phone = "0900000001", PasswordHash = defaultPasswordHash, UserType = (CR.Constants.Core.Users.UserTypeEnum)1, Status = 1, IsTempPassword = false,
                     Profile = new UserProfile { FullName = "Admin 1", PhoneNumber = "0900000001", Gender = (CR.Constants.Core.Users.GenderTypes)1 }
                 },
                 new Users {
-                    Username = "user02", Email = "user02@eshop.com", Phone = "0900000002", PasswordHash = defaultPasswordHash, UserType = (CR.Constants.Core.Users.UserTypeEnum)2, Status = 1, IsTempPassword = false,
+                    Username = "user02", Email = "user02@sshop.com", Phone = "0900000002", PasswordHash = defaultPasswordHash, UserType = (CR.Constants.Core.Users.UserTypeEnum)2, Status = 1, IsTempPassword = false,
                     Profile = new UserProfile { FullName = "User 2", PhoneNumber = "0900000002", Gender = (CR.Constants.Core.Users.GenderTypes)0 }
                 }
             };
@@ -81,7 +81,7 @@ namespace CR.Core.Infrastructure.Persistence.Seeders
             // 3. SysVars
             var sysVars = new List<SysVar>
             {
-                new SysVar { GrName = "Config", VarName = "SiteName", VarValue = "EShop", VarDesc = "Tên website" },
+                new SysVar { GrName = "Config", VarName = "SiteName", VarValue = "SShop", VarDesc = "Tên website" },
                 new SysVar { GrName = "Payment", VarName = "VAT", VarValue = "10", VarDesc = "Thuế GTGT" },
                 new SysVar { GrName = "Shipping", VarName = "BaseFee", VarValue = "30000", VarDesc = "Phí ship cơ bản" },
                 new SysVar { GrName = "AUTHMAXTURN", VarName = "LOGINMAXTURN", VarValue = "5", VarDesc = "Số lần đăng nhập sai tối đa" }

@@ -685,7 +685,7 @@ import { CommonModule } from '@angular/common';
 
           <!-- FOOTER -->
           <footer class="dash-footer pb-24 md:pb-12">
-            <span class="dash-footer__copy">© 2025 ATELIER eShop — Crafted with intention.</span>
+            <span class="dash-footer__copy">© 2025 ATELIER SShop — Crafted with intention.</span>
             <div class="flex items-center gap-4 text-xs text-[#9D9890]">
               <a href="/account/login" class="hover:underline">Đăng nhập</a>
             </div>

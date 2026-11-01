@@ -171,7 +171,7 @@ import { RouterModule } from '@angular/router';
 
         <div class="footer__top">
           <div class="footer__brand">
-            <h2>ESHOP.</h2>
+            <h2>SSHOP.</h2>
             <p>Trang phục thường ngày được tuyển chọn kỹ lưỡng, mang lại sự tinh tế và thoải mái trong từng khoảnh khắc.</p>
           </div>
 
@@ -220,7 +220,7 @@ import { RouterModule } from '@angular/router';
 
         <div class="footer__bottom">
           <div class="footer__copyright">
-            <p>&copy; 2024 ESHOP. Tất cả các quyền được bảo lưu.</p>
+            <p>&copy; 2024 SSHOP. Tất cả các quyền được bảo lưu.</p>
           </div>
           <div class="footer__socials">
             <a href="#instagram" target="_blank">Instagram</a>

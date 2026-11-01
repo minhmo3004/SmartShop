@@ -189,7 +189,7 @@ namespace CR.Core.ApplicationServices.OtpModule.Implements
         {
             var apiKey = _configuration["Brevo:ApiKey"] ?? Environment.GetEnvironmentVariable("BREVO_API_KEY");
             var fromEmail = _configuration["Brevo:SenderEmail"] ?? _configuration["Smtp:FromEmail"];
-            var fromName = _configuration["Brevo:SenderName"] ?? "ATELIER eShop";
+            var fromName = _configuration["Brevo:SenderName"] ?? "ATELIER SShop";
             if (string.IsNullOrWhiteSpace(apiKey))
             {
                 throw new InvalidOperationException("Thiếu cấu hình BREVO_API_KEY.");

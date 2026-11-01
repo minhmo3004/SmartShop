@@ -1,11 +1,11 @@
-# EShop: Modern E-Commerce Platform
+# SShop: Modern E-Commerce Platform
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![.NET Version](https://img.shields.io/badge/.NET-9.0-purple.svg)]()
 [![Angular Version](https://img.shields.io/badge/Angular-17%2B-dd1b16.svg)]()
 
-EShop là hệ thống E-commerce hiện đại được xây dựng dựa trên kiến trúc Clean Architecture. Dự án cung cấp một nền tảng bán hàng trực tuyến toàn diện, hiệu năng cao và dễ dàng mở rộng, đáp ứng đầy đủ các nghiệp vụ thương mại điện tử cốt lõi từ quản lý sản phẩm, giỏ hàng đến xử lý đơn đặt hàng.
+SShop là hệ thống E-commerce hiện đại được xây dựng dựa trên kiến trúc Clean Architecture. Dự án cung cấp một nền tảng bán hàng trực tuyến toàn diện, hiệu năng cao và dễ dàng mở rộng, đáp ứng đầy đủ các nghiệp vụ thương mại điện tử cốt lõi từ quản lý sản phẩm, giỏ hàng đến xử lý đơn đặt hàng.
 
 ## Trợ giúp trực quan
 > **Lưu ý cho nhà phát triển:** Cập nhật ảnh chụp màn hình UI trang chủ, luồng mua hàng hoặc video/GIF demo của dự án vào phần này.
@@ -29,16 +29,16 @@ Yêu cầu thiết bị phải được cài đặt sẵn các phụ thuộc k�
 
 **1. Clone dự án**
 ```bash
-git clone https://github.com/your-repo/EShop.git
+git clone https://github.com/your-repo/SShop.git
 cd SmartShop
 ```
 
 **2. Thiết lập Database**
 Khởi chạy PostgreSQL bằng Docker:
 ```bash
-docker run --name smartshop-postgres -e POSTGRES_DB=EShopDb -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=YourPassword123 -p 5432:5432 -d postgres:16
+docker run --name smartshop-postgres -e POSTGRES_DB=SShopDb -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=YourPassword123 -p 5432:5432 -d postgres:16
 ```
-Tạo `SmartShop.API/.env` từ `.env.example`, sau đó đặt `CONNECTIONSTRINGS_DEFAULTCONNECTION=Host=localhost;Port=5432;Database=EShopDb;Username=postgres;Password=YourPassword123`. Không dùng chuỗi SQL Server có sẵn trong `appsettings.json` với provider PostgreSQL.
+Tạo `SmartShop.API/.env` từ `.env.example`, sau đó đặt `CONNECTIONSTRINGS_DEFAULTCONNECTION=Host=localhost;Port=5432;Database=SShopDb;Username=postgres;Password=YourPassword123`. Không dùng chuỗi SQL Server có sẵn trong `appsettings.json` với provider PostgreSQL.
 
 **3. Cài đặt Backend**
 ```bash
@@ -104,7 +104,7 @@ Mọi đóng góp nhằm hoàn thiện dự án đều được trân trọng. V
 
 ## Hỗ trợ
 Nếu bạn gặp khó khăn cần giải quyết hoặc muốn đóng góp ý tưởng, liên hệ với đội ngũ:
-- **Email:** support@eshop-dev.com
+- **Email:** support@sshop-dev.com
 - **Issue Tracker:** Tạo Issue báo lỗi / đề xuất tính năng trực tiếp trên GitHub Repository.
 
 ## Công nhận

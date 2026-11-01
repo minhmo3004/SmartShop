@@ -153,7 +153,7 @@ builder.Services.AddHttpClient("BrevoClient", client =>
 
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo { Title = "CR eShop API", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "CR SShop API", Version = "v1" });
 
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -293,7 +293,7 @@ if (!string.IsNullOrEmpty(redisConnectionString))
     builder.Services.AddStackExchangeRedisCache(options =>
     {
         options.Configuration = redisConnectionString;
-        options.InstanceName = "eShop_";
+        options.InstanceName = "SShop_";
     });
 }
 else

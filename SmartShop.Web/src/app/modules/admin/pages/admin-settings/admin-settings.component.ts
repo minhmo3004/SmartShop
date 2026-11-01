@@ -145,7 +145,7 @@ import { ToastService } from '../../../../core/services/toast.service';
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <div>
                     <label>Tên cửa hàng</label>
-                    <input type="text" class="adm-input" value="MQN EShop Premium" readonly />
+                    <input type="text" class="adm-input" value="MQN SShop Premium" readonly />
                   </div>
                   <div>
                     <label>Email liên hệ</label>

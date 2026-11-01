@@ -1,6 +1,6 @@
-# EShop Design System Premium v2
+# SShop Design System Premium v2
 
-> **Mục tiêu:** Xây dựng một hệ thống UI/UX cao cấp cho EShop theo phong cách **anti-generic**, tập trung vào trải nghiệm người dùng, khả năng chuyển đổi (Conversion), hiệu năng và khả năng mở rộng trong môi trường production.
+> **Mục tiêu:** Xây dựng một hệ thống UI/UX cao cấp cho SShop theo phong cách **anti-generic**, tập trung vào trải nghiệm người dùng, khả năng chuyển đổi (Conversion), hiệu năng và khả năng mở rộng trong môi trường production.
 
 ---
 
@@ -656,7 +656,7 @@ Theo dõi:
 
 ---
 
-# 29. EShop Information Architecture
+# 29. SShop Information Architecture
 
 ```text
 Landing
@@ -704,7 +704,7 @@ Landing
 
 # 30. Design Goal
 
-Mọi màn hình trong hệ thống EShop phải đáp ứng đồng thời các tiêu chí sau:
+Mọi màn hình trong hệ thống SShop phải đáp ứng đồng thời các tiêu chí sau:
 
 * Premium nhưng tối giản
 * Khác biệt với template AI phổ biến

@@ -18,7 +18,7 @@ import { ThemeToggleComponent } from '../../../shared/components/theme-toggle/th
       <!-- Left Side: Visual / Branding (Optional for Split Layout) -->
       <div class="hidden lg:flex w-1/2 flex-col justify-between bg-surface border-r border-border p-12 transition-colors duration-300">
         <div>
-          <h1 class="text-h2 font-serif text-accent">EShop Premium</h1>
+          <h1 class="text-h2 font-serif text-accent">SShop Premium</h1>
         </div>
         
         <div class="flex-1 flex flex-col justify-center max-w-md mx-auto relative">

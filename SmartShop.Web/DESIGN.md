@@ -1,4 +1,4 @@
-# Design System: EShop Premium v2
+# Design System: SShop Premium v2
 
 ## 1. Visual Theme & Atmosphere
 Giao diện kết hợp giữa sự tối giản của **Editorial Layout** và sự mượt mà của **Daily App Balanced**. Vibe chủ đạo là *Quiet Luxury* — gọn gàng, nhiều khoảng trắng (whitespace lớn), lưới Asymmetric (bất đối xứng) mang lại cảm giác cao cấp như Apple Store hoặc COS. Motion mượt mà dựa trên Spring Physics (tạo cảm giác có trọng lượng thực tế). Không sử dụng các yếu tố "AI Slop" như Gradient lòe loẹt hay Glassmorphism quá đà.
@@ -9,7 +9,7 @@ Giao diện kết hợp giữa sự tối giản của **Editorial Layout** và 
 - **Charcoal Ink** (`#18181B`) — Màu text chính (Primary Text), tiêu đề. Không dùng `#000000`.
 - **Muted Steel** (`#71717A`) — Màu text phụ (Secondary Text), mô tả, placeholder, timestamp.
 - **Whisper Border** (`#E4E4E7`) — Đường viền (Border) mỏng 1px dùng cho thẻ, input, divider.
-- **Accent Blue** (`#18181B`) — Thay vì dùng màu xanh/đỏ truyền thống, EShop v2 dùng Đen (Zinc 950) làm màu nhấn chủ đạo cho các nút Primary CTA, tạo cảm giác Premium Monochrome. (Màu cảnh báo lỗi dùng `#EF4444`, thành công dùng `#10B981` nhưng ở tone dịu).
+- **Accent Blue** (`#18181B`) — Thay vì dùng màu xanh/đỏ truyền thống, SShop v2 dùng Đen (Zinc 950) làm màu nhấn chủ đạo cho các nút Primary CTA, tạo cảm giác Premium Monochrome. (Màu cảnh báo lỗi dùng `#EF4444`, thành công dùng `#10B981` nhưng ở tone dịu).
 
 ## 3. Typography Rules
 - **Font-Family:** `Geist` hoặc `Satoshi` (Tuyệt đối KHÔNG dùng `Inter`, `Times New Roman`, `Georgia`).

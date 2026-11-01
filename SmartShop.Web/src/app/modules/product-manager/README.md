@@ -1,7 +1,7 @@
 # Product Manager Module
 
 ## Overview
-The Product Manager module provides a complete feature set for managing products in the eShop application. It follows the specified architecture pattern with smart (container) and dumb (presentational) components.
+The Product Manager module provides a complete feature set for managing products in the SShop application. It follows the specified architecture pattern with smart (container) and dumb (presentational) components.
 
 ## Structure
 ```
